@@ -7,7 +7,7 @@ class DocxTemplates:
                 </w:pPr>
                 <w:bookmarkStart w:id="Fig-{section_id}-{image_id}" w:name="图{section_id}-{image_id}" />
                 <w:r>
-                    <w:t xml:space="preserve">图 </w:t>
+                    <w:t xml:space="preserve">图</w:t>
                 </w:r>
                 <w:fldSimple w:instr="STYLEREF 1 \s">
                     <w:r>

@@ -9,5 +9,14 @@ templates:
       HUST: {}
       first_line_indent:
         indent_size: 24
+  my_reference:
+    reference: "my_reference.docx"
+    pandoc_filters:
+      - "general.py"
+    docx_handlers:
+      HUST: {}
+      first_line_indent:
+        indent_size: 24
+      
 
 

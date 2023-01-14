@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "转换当前文件",
+            "name": "Shan: 转换当前文件",
             "type": "python",
             "request": "launch",
             "program": "md2report.py",
@@ -15,7 +15,25 @@
                 "-i",
                 "${file}",
                 "-o",
-                "${workspaceFolder}/site/output.docx"
+                "${workspaceFolder}/site/output.docx",
+                "-t",
+                "my_reference"
+            ]
+        },
+        {
+            "name": "HUST: 转换当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "md2report.py",
+            "cwd": "${workspaceFolder}/backend",
+            "console": "integratedTerminal",
+            "args": [
+                "-i",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/site/output2.docx",
+                "-t",
+                "HUST"
             ]
         }
     ]
